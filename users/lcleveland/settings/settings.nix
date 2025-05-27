@@ -1,7 +1,7 @@
 { config, lib, ... }:
 {
   config = lib.mkIf config.users.lcleveland.settings.enable {
-    config.system.keyboard.keymap.variant = "colmak_dh";
+    system.keyboard.keymap.variant = "colmak_dh";
     users.users.lcleveland = {
       description = config.users.lcleveland.settings.name;
       extraGroups = config.users.lcleveland.settings.groups;
