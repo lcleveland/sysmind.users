@@ -3,7 +3,7 @@
   config = {
     home-manager = {
       sharedModules = [
-        plasma_manager.plasma-manager.homeManagerModules.plasma-manager
+        inputs.plasma_manager.homeManagerModules.plasma-manager
       ];
       users.lcleveland.programs.plasma = {
         enable = true;
