@@ -1,4 +1,4 @@
-{ config, inputs, lib, zen_browser, ... }:
+{ config, inputs, lib, ... }:
 {
   config = {
     home-manager.users.lcleveland.home.packages = [
