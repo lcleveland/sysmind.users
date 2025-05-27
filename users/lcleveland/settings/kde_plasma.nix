@@ -1,9 +1,9 @@
-{ config, lib, plasma_manager, ... }:
+{ config, lib, ... }:
 {
   config = {
     home-manager = {
       sharedModules = [
-        plasma_manager.homeManagerModules.plasma-manager
+        plasma-manager.homeManagerModules.plasma-manager
       ];
       users.lcleveland.programs.plasma = {
         enable = true;
