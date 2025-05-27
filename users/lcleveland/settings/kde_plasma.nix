@@ -1,6 +1,8 @@
 { config, lib, ... }:
 {
-  home-manager.users.lcleveland.programs.plasma = {
-    enable = true;
+  config = {
+    home-manager.users.lcleveland.programs.plasma = {
+      enable = true;
+    };
   };
 }
