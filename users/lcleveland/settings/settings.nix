@@ -1,6 +1,10 @@
 { config, lib, ... }:
 {
   config = lib.mkIf config.users.lcleveland.settings.enable {
+    home-manager.users.lcleveland.home = {
+      stateVersion = config.users.lcleveland.settings.state_version;
+      username = config.users.lcleveland.settings.username;
+    };
     system.keyboard.keymap.variant = "colmak_dh";
     users.users.lcleveland = {
       description = config.users.lcleveland.settings.name;
