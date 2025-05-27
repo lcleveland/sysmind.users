@@ -1,8 +1,11 @@
-{ config, lib, ... }:
+{ config, inputs, lib, ... }:
 {
   config = {
-    home-manager.users.lcleveland.programs.nixvim = {
-      enable = true;
+    home-manager.users.lcleveland = {
+      imports = [ inputs.nixvim.homeManagerModules.nixvim ];
+      programs.nixvim = {
+        enable = true;
+      };
     };
   };
 }
