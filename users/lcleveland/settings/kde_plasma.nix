@@ -9,7 +9,7 @@
         enable = true;
         workspace = {
           lookAndFeel = "org.kde.breezedark.desktop";
-          wallpaper = "../../../resources/wallpapers/sysmind_brain_green.png";
+          wallpaper = "/home/lcleveland/sysmind.nix/resources/wallpapers/sysmind_brain_green.png";
         };
       };
     };
