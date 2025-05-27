@@ -1,12 +1,8 @@
 { config, lib, ... }:
 {
   config = {
-    home-manager.users.lcleveland.programs.zen-browser = {
-      enable = true;
-      policies = {
-        DisableAppUpdate = true;
-        DisableTelemetry = true;
-      };
-    };
+    home-manager.users.lcleveland.home.packages = [
+      inputs.zen_browser.packages.${config.system.nix.host_platform}.default
+    ];
   };
 }
