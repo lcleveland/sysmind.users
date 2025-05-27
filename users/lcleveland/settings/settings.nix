@@ -5,7 +5,7 @@
       stateVersion = config.users.lcleveland.settings.state_version;
       username = config.users.lcleveland.settings.username;
     };
-    system.keyboard.keymap.variant = "colmak_dh";
+    system.keyboard.keymap.variant = "colemak_dh";
     users.users.lcleveland = {
       description = config.users.lcleveland.settings.name;
       extraGroups = config.users.lcleveland.settings.groups;
