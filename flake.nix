@@ -1,6 +1,6 @@
 {
   description = "Reusable NixOS user configurations";
-  outputs = { self, home-manager, nixpkgs, zen_browser }:
+  outputs = { self, home-manager, nixpkgs, zen_browser }@inputs:
     let
       import_modules = import ./import_modules.nix;
       users = import_modules ./users;
