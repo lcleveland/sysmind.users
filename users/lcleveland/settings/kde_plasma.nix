@@ -1,4 +1,4 @@
-{ config, lib, plasma_manager, ... }:
+{ config, lib, inputs, ... }:
 {
   config = {
     home-manager = {
