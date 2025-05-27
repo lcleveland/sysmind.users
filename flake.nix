@@ -6,6 +6,6 @@
       users = import_modules ./users;
     in
     {
-      nixosModules.users = users;
+      nixosModules.default = users;
     };
 }
