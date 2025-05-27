@@ -8,6 +8,10 @@
         vimAlias = true;
         defaultEditor = true;
         plugins = {
+          cmp = {
+            enable = true;
+            autoEnableSources = true;
+          };
           supermaven.enable = true;
         };
       };
