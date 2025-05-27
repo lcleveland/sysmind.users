@@ -7,6 +7,9 @@
         enable = true;
         vimAlias = true;
         defaultEditor = true;
+        plugins = {
+          supermaven.enable = true;
+        };
       };
     };
   };
