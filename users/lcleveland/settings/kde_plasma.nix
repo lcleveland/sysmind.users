@@ -16,7 +16,11 @@
                   icon = "nix-snowflake-white";
                 };
               }
-              "org.kde.plasma.marginsseparator"
+              {
+                panelSpacer = {
+                  expanding = true;
+                };
+              }
               {
                 digitalClock = {
                   timeZone.lastSelected = "America/Chicago";
