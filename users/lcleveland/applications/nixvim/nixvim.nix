@@ -28,6 +28,11 @@
           };
           lsp-format.enable = true;
           supermaven.enable = true;
+          treesitter = {
+            enable = true;
+            auto_install = true;
+            parser_install_dir = "/home/lcleveland/.config/nvim/treesitter";
+          };
         };
       };
     };
