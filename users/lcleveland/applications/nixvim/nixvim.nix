@@ -16,6 +16,10 @@
           lsp = {
             enable = true;
             servers = {
+              nil_ls = {
+                enable = true;
+                autostart = true;
+              };
               nixd = {
                 enable = true;
                 autostart = true;
