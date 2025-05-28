@@ -7,6 +7,17 @@
       ];
       users.lcleveland.programs.plasma = {
         enable = true;
+        panels = [
+          {
+            widgets = [
+              {
+                digitalClock = {
+                  timeZone = "America/Chicago";
+                };
+              }
+            ];
+          }
+        ];
         workspace = {
           lookAndFeel = "org.kde.breezedark.desktop";
           wallpaper = "/home/lcleveland/sysmind.nix/resources/wallpapers/sysmind_brain_green.png";
