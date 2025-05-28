@@ -17,7 +17,11 @@
                 };
               }
               {
-                applicationTitleBar = { };
+                iconTasks = {
+                  appearance = {
+                    indicateAudioStreams = true;
+                  };
+                };
               }
               {
                 panelSpacer = {
