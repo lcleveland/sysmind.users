@@ -22,8 +22,22 @@
                 };
               }
               {
+                systemTray = {
+                  items = {
+                    shown = [
+                      "org.kde.plasma.networkmanagement"
+                      "org.kde.plasma.volume"
+                      "org.kde.plasma.battery"
+                    ];
+                  };
+                };
+              }
+              {
                 digitalClock = {
-                  timeZone.lastSelected = "America/Chicago";
+                  timeZone = {
+                    selected = [ "America/Chicago" ];
+                    lastSelected = "America/Chicago";
+                  };
                 };
               }
             ];
