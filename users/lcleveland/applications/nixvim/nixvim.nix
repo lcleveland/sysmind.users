@@ -30,7 +30,7 @@
           supermaven.enable = true;
           treesitter = {
             enable = true;
-            auto_install = true;
+            settings.auto_install = true;
             parser_install_dir = "/home/lcleveland/.config/nvim/treesitter";
           };
         };
