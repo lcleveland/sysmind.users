@@ -22,6 +22,11 @@
                 };
               }
               {
+                systemMonitor = {
+                  displayStye = "org.kde.ksysguard.barchart";
+                };
+              }
+              {
                 systemTray = {
                   items = {
                     shown = [
