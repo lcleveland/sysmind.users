@@ -17,6 +17,9 @@
                 };
               }
               {
+                applicationTitleBar = { };
+              }
+              {
                 panelSpacer = {
                   expanding = true;
                 };
