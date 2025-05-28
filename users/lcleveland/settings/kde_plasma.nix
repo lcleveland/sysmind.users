@@ -12,7 +12,7 @@
             widgets = [
               {
                 digitalClock = {
-                  timeZone.selected = [ "Local" ];
+                  timeZone.selected = [ "America/Chicago" ];
                 };
               }
             ];
