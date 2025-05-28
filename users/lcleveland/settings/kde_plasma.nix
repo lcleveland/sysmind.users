@@ -9,7 +9,14 @@
         enable = true;
         panels = [
           {
+            location = "bottom";
             widgets = [
+              {
+                kickoff = {
+                  icon = "nix-snowflake-white";
+                };
+              }
+              "org.kde.plasma.marginsseparator"
               {
                 digitalClock = {
                   timeZone.lastSelected = "America/Chicago";
