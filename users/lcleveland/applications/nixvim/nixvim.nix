@@ -11,6 +11,11 @@
           cmp = {
             enable = true;
             autoEnableSources = true;
+	    settings = {
+	    	sources = [
+		    { name = "nvim_lsp"; }
+		    ];
+	    };
           };
           cmp-nvim-lsp.enable = true;
           lsp = {
@@ -27,6 +32,10 @@
             };
           };
           lsp-format.enable = true;
+	  none-ls = {
+	  	enable = true;
+		sources.formatting.nixpkgs_fmt.enable = true;
+		};
           supermaven.enable = true;
           treesitter = {
             enable = true;
