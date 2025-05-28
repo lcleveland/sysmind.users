@@ -23,7 +23,7 @@
               }
               {
                 systemMonitor = {
-                  displayStye = "org.kde.ksysguard.barchart";
+                  displayStyle = "org.kde.ksysguard.barchart";
                 };
               }
               {
