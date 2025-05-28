@@ -12,6 +12,17 @@
             enable = true;
             autoEnableSources = true;
           };
+          cmp-nvim-lsp.enable = true;
+          lsp = {
+            enable = true;
+            servers = {
+              nixd = {
+                enable = true;
+                autostart = true;
+              };
+            };
+          };
+          lsp-format.enable = true;
           supermaven.enable = true;
         };
       };
