@@ -24,6 +24,13 @@
                 };
               }
               {
+                plasmaPanelColorizer = {
+                  general = {
+                    enable = true;
+                  };
+                };
+              }
+              {
                 systemTray = {
                   items = {
                     shown = [
