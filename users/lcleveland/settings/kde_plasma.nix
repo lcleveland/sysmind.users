@@ -29,6 +29,7 @@
                   sensors = [
                     {
                       name = "all";
+                      color = "255,255,255";
                       label = "All Sensors";
                     }
                   ];
