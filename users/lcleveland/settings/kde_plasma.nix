@@ -24,13 +24,14 @@
                 };
               }
               {
-                panelSpacer = {
-                  expanding = true;
-                };
-              }
-              {
                 systemMonitor = {
                   displayStyle = "org.kde.ksysguard.barchart";
+                  sensors = [
+                    {
+                      name = "all";
+                      label = "All Sensors";
+                    }
+                  ];
                 };
               }
               {
