@@ -4,7 +4,7 @@
     inputs.niri.homeModules.niri
   ];
 
-  programs.niri = {
+  config.programs.niri = {
     settings = {
       binds = {
         "Mod+T".action.spawn = "ghostty";
