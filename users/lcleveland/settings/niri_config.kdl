@@ -15,7 +15,7 @@ input {
 }
 
 overview {
-  backdrop-color = "#1e1e2e"
+  backdrop-color "#1e1e2e"
 }
 
 binds {
