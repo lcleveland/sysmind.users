@@ -7,9 +7,9 @@
       };
       niri = {
         settings = {
-          binds = {
+          binds = with config.lib.niri.actions; {
             "Mod+D".action.spawn = "fuzzel";
-            "Mod+Q".action = config.lib.niri.actions.close-window;
+            "Mod+Q".action = close-window;
             "Mod+T".action.spawn = "ghostty";
           };
           input.keyboard.xkb = {
