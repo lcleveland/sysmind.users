@@ -2,15 +2,15 @@ input {
     focus-follows-mouse
     workspace-auto-back-and-forth
     keyboard {
-      xkb {
-        layout "us"
-        variant "colemak_dh"
-      }
+        xkb {
+          layout "us"
+          variant "colemak_dh"
+        }
     }
     touchpad {
-      dwt
-      tap
-      natural-scroll
+        dwt
+        tap
+        natural-scroll
     }
 }
 
