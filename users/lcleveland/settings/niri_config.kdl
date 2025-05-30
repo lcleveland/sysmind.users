@@ -16,8 +16,6 @@ input {
 
 prefer-no-csd
 
-spawn-at-startup "waybar"
-
 output "eDP-1" {
     background-color "#1e1e2e"
 }
