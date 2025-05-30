@@ -14,9 +14,9 @@ input {
   }
 }
 
-overview {
-  backdrop-color "#1e1e2e"
-}
+  overview {
+    backdrop-color "#1e1e2e"
+  }
 
 binds {
   Mod+D { spawn "fuzzel"; }
