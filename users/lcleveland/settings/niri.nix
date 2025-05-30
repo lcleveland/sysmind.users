@@ -1,9 +1,5 @@
 { config, lib, inputs, ... }:
 {
-  imports = [
-    inputs.niri.homeModules.niri
-  ];
-
   config.programs.niri = {
     settings = {
       binds = {
