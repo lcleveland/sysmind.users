@@ -1,7 +1,7 @@
 { config, lib, inputs, ... }:
 {
   config = {
-    users.lcleveland.programs.niri = {
+    home-manager.users.lcleveland.programs.niri = {
       settings = {
         binds = {
           "Mod+T".action.spawn = "ghostty";
