@@ -6,7 +6,7 @@
         enable = true;
       };
       niri = {
-        config = ./niri_config.kdl;
+        config = (builtins.readFile ./niri_config.kdl);
       };
     };
   };
