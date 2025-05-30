@@ -1,8 +1,8 @@
 input {
   focus-follows-mouse
   workspace-auto-back-and-forth
+  numlock
   keyboard {
-    numlock
     xkb {
       layout "us"
       variant "colemak_dh"
