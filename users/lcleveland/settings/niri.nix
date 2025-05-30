@@ -1,11 +1,12 @@
 { config, lib, inputs, ... }:
 {
-  config.programs.niri = {
+  programs.niri = {
+    enable = true;
     settings = {
       binds = {
         "Mod+T".action.spawn = "ghostty";
       };
-      input.keyboard.variant = "colemak_dh";
+      input.keyboard.xkb.variant = "colemak_dh";
     };
   };
 }
