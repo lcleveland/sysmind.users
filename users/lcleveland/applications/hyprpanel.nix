@@ -1,5 +1,6 @@
 { config, lib, pkgs, inputs, ... }:
 {
+  imports = [ inputs.hyprpanel.homeManagerModules.hyprpanel ];
   config = {
     home-manager.users.lcleveland = {
       home.packages = with pkgs; [
