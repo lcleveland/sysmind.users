@@ -1,4 +1,4 @@
-{ config, lib, inputs, ... }:
+{ config, lib, pkgs, inputs, ... }:
 {
   config = {
     home-manager.users.lcleveland.home.packages = with pkgs; [
