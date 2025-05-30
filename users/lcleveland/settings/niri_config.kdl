@@ -16,6 +16,19 @@ input {
 
 prefer-no-csd
 
+overview {
+    zoom 0.5
+    backdrop-color "#262626"
+
+    workspace-shadow {
+        // off
+        softness 40
+        spread 10
+        offset x=0 y=10
+        color "#00000050"
+    }
+}
+
 binds {
     Mod+D { spawn "fuzzel"; }
     Mod+Q { close-window; }
