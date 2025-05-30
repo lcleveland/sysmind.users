@@ -1,0 +1,14 @@
+input {
+  keyboard {
+    xkb {
+      layout "us"
+      variant "colemak_dh"
+    }
+  }
+}
+
+binds {
+  Mod+D { spawn "fuzzel" }
+  Mod+Q { close-window }
+  Mod+T { spawn "ghostty" }
+}

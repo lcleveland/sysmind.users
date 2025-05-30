@@ -6,17 +6,7 @@
         enable = true;
       };
       niri = {
-        settings = {
-          binds = {
-            "Mod+D".action.spawn = "fuzzel";
-            "Mod+Q".action = inputs.niri.homeModules.config.lib.niri.actions.close-window;
-            "Mod+T".action.spawn = "ghostty";
-          };
-          input.keyboard.xkb = {
-            layout = "us";
-            variant = "colemak_dh";
-          };
-        };
+        config = builtins.readFile ./niri_config.kdl;
       };
     };
   };
