@@ -1,7 +1,7 @@
 { config, lib, inputs, ... }:
 {
   config = {
-    niri = {
+    programs.niri = {
       enable = true;
       settings = {
         binds = {
