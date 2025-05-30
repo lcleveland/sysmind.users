@@ -6,6 +6,7 @@ input {
           layout "us"
           variant "colemak_dh"
         }
+
         numlock
     }
     touchpad {
