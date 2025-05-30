@@ -1,6 +1,7 @@
 input {
     focus-follows-mouse
     workspace-auto-back-and-forth
+    numlock
     keyboard {
         xkb {
           layout "us"
