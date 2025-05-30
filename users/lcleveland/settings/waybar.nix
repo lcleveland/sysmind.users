@@ -6,7 +6,7 @@
         enable = true;
         style = ''
           * {
-            font-family: "Roboto Mono", "Font Awesome 6 Free Solid", "Font Awesome 6 Brands";
+            font-family: Hack, FontAwesome6Free, Roboto;
             }
         '';
       };
