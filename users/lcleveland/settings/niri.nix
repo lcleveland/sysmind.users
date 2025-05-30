@@ -6,7 +6,10 @@
         binds = {
           "Mod+T".action.spawn = "ghostty";
         };
-        input.keyboard.xkb.variant = "colemak_dh";
+        input.keyboard.xkb = {
+          layout = "us";
+          variant = "colemak_dh";
+        };
       };
     };
   };
