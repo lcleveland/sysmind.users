@@ -1,6 +1,6 @@
 { config, lib, inputs, ... }:
 {
-  programs.niri = {
+  home-manager.users.lcleveland.programs.niri = {
     enable = true;
     settings = {
       binds = {
