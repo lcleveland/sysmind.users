@@ -6,8 +6,6 @@ input {
           layout "us"
           variant "colemak_dh"
         }
-
-        numlock
     }
     touchpad {
         dwt
@@ -15,6 +13,8 @@ input {
         natural-scroll
     }
 }
+
+prefer-no-csd
 
 binds {
     Mod+D { spawn "fuzzel"; }
